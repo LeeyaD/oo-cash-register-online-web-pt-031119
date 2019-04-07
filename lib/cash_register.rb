@@ -1,7 +1,7 @@
 require 'pry'
 
 class CashRegister
-  attr_accessor :total, :discount, :last_item
+  attr_accessor :total, :discount, :last_trans
 
   @@items = []
 
