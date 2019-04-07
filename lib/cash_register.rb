@@ -34,6 +34,7 @@ class CashRegister
   end
 
   def items
+    @last_item
     binding.pry
   end
 =begin
