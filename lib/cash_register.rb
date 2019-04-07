@@ -37,11 +37,11 @@ class CashRegister
     self.add_items
     binding.pry
   end
-
+=begin
   def void_last_transaction
     @@items.pop
     void = self.total - @last_item
     @total = void
   end
-
+=end
 end
