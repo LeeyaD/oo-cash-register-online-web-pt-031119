@@ -35,6 +35,7 @@ class CashRegister
 
   def items
     self.add_items
+    binding.pry
   end
 
   def void_last_transaction
