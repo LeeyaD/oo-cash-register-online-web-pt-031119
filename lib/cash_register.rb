@@ -34,7 +34,7 @@ class CashRegister
   end
 
   def items
-    @@items.uniq
+    self.add_items
   end
 
   def void_last_transaction
