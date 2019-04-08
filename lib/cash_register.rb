@@ -13,7 +13,6 @@ class CashRegister
 
   def total
     @total
-    #binding.pry
   end
 
   def add_item (item, price, quantity = 1)
@@ -21,7 +20,6 @@ class CashRegister
     quantity.times do
       @items << item
     end
-    #binding.pry
   end
 
   def apply_discount
