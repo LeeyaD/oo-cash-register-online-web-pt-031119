@@ -9,7 +9,7 @@ class CashRegister
     @discount = discount
     @items = []
   end
-  
+
   def add_item (item, price, quantity = 1)
     self.total = @total + (price * quantity)
     @last_trans = price * quantity
@@ -26,10 +26,6 @@ class CashRegister
       @total = with_discount
       "After the discount, the total comes to $#{with_discount}."
     end
-  end
-
-  def items
-    @items
   end
 
   def void_last_transaction
