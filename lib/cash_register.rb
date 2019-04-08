@@ -1,5 +1,4 @@
 require 'pry'
-
 class CashRegister
   attr_accessor :total, :last_trans
   attr_reader :discount
@@ -41,5 +40,4 @@ class CashRegister
     @items.pop
     @total = self.total - @last_trans
   end
-
 end
