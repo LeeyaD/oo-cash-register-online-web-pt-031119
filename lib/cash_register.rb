@@ -1,7 +1,7 @@
 require 'pry'
 
 class CashRegister
-  attr_accessor :total, :discount, :last_trans
+  attr_accessor :total, :discount, :last_trans, :items
 
   @@items = []
 
@@ -34,7 +34,7 @@ class CashRegister
   end
 
   def items
-    @last_item
+    @items
     #binding.pry
   end
 =begin
